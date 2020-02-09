@@ -1,4 +1,4 @@
-# my-zsh-setup - (Oh My ZSH)[https://ohmyz.sh/]
+# my-zsh-setup - [Oh My ZSH](https://ohmyz.sh/)
 
 ## ScreenShot
 
@@ -7,25 +7,26 @@
 
 ## Some :sunglasses: stuff
 
-* Command line tools
+### Command line tools
 
-(HTTP client)[https://httpie.org/]
-(fuzzy finder)[https://github.com/junegunn/fzf]
-(watch)[https://linuxize.com/post/linux-watch-command/]
-(bat)[https://github.com/sharkdp/bat]
-
+- [bat](https://github.com/sharkdp/bat)
+- [watch](https://linuxize.com/post/linux-watch-command/)
+- [fuzzy finder](https://github.com/junegunn/fzf)
+- [HTTP client](https://httpie.org/)
+    
+    
 ```bash
-brew install httpie
-brew install fzf
-brew install watch
 brew install bat
+brew install watch
+brew install fzf
+brew install httpie
 ```
 
-* Alias?
+### Alias?
 
 Best to create your own.
 
-* Kubernetes Context is too big?
+### Kubernetes Context is too big?
 
 ```bash
 kubectl config rename-context old-name new-name
