@@ -13,13 +13,14 @@
 - [watch](https://linuxize.com/post/linux-watch-command/)
 - [fuzzy finder](https://github.com/junegunn/fzf)
 - [HTTP client](https://httpie.org/)
-    
+- [tree](http://mama.indstate.edu/users/ice/tree/)
     
 ```bash
 brew install bat
 brew install watch
 brew install fzf
 brew install httpie
+brew install tree
 ```
 
 ### Alias?
