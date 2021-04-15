@@ -1,7 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-
 alias cdgg="cd /Users/subodh101/go/src/github.com"
 alias cdgs="cd /Users/subodh101/go/src/github.com/subodh101"
 alias ..="cd .."
@@ -15,6 +13,12 @@ alias gs="git status"
 alias gct="git checkout"
 alias gp="git push"
 
+alias k="kubectl"
+alias kga="kubectl get all"
+alias kgp="kubectl get pods"
+
+alias d="docker"
+alias di="docker images"
 
 export ZSH=/Users/subodh101/.oh-my-zsh
 
@@ -45,3 +49,14 @@ source $ZSH/oh-my-zsh.sh
 # For: (⎈ |<kubernetes-context>:<namespace>)
 source $HOME/go/src/github.com/jonmosco/kube-ps1/kube-ps1.sh
 PROMPT='$(kube_ps1)'$PROMPT
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/subodh101/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/subodh101/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/subodh101/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/subodh101/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+[[ -d ~/.rbenv  ]] && \
+  export PATH=${HOME}/.rbenv/bin:${PATH} && \
+  eval "$(rbenv init -)"
